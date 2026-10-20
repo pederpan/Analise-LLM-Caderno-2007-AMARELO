@@ -1,0 +1,116 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2007,
+            "dia": 1,
+            "numero": 12,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": 12,
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "textos_extraidos/questao-12.txt",
+            "gabarito": "E"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "MT",
+            "nome": "Matemática e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C7",
+            "descricao": "Compreender o caráter aleatório e não-determinístico dos fenômenos naturais e sociais e utilizar instrumentos adequados para medidas, determinação de amostras e cálculos de probabilidade para interpretar informações de variáveis apresentadas em uma distribuição estatística."
+        },
+        "habilidade_principal": {
+            "id": "H28",
+            "descricao": "Resolver situação-problema que envolva conhecimentos de estatística e probabilidade."
+        },
+        "habilidades_relacionadas": [
+            {
+                "id": "H25",
+                "descricao": "Resolver problema com dados apresentados em tabelas ou gráficos."
+            },
+            {
+                "id": "H30",
+                "descricao": "Avaliar propostas de intervenção na realidade utilizando conhecimentos de estatística e probabilidade."
+            }
+        ],
+        "eixo_cognitivo": {
+            "id": "III",
+            "nome": "Enfrentar situações-problema (SP)",
+            "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Probabilidade",
+        "conteudos_relacionados": [
+            "Probabilidade condicional",
+            "Leitura e interpretação de tabelas de dupla entrada"
+        ],
+        "assunto": "Cálculo de probabilidade com restrição de espaço amostral",
+        "objeto_de_analise": "Tabela de internações hospitalares por faixa etária e causa",
+        "fenomeno_conceito": "Probabilidade de um evento sob condição restritiva"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "0,26, o que sugere a necessidade de implementação de medidas que reforcem a atenção ao idoso internado com problemas respiratórios.",
+            "correta": false,
+            "justificativa": "O valor 0,26 corresponde aproximadamente a 115/450 ou à razão entre idosos internados por outras causas/total, não refletindo a razão correta entre crianças e o total de internados por queimadas (150/200 = 0,75)."
+        },
+        {
+            "letra": "B",
+            "texto": "0,50, o que comprova ser de grau médio a gravidade dos problemas respiratórios que atingem a população nas regiões das queimadas.",
+            "correta": false,
+            "justificativa": "O valor 0,50 não decorre da probabilidade solicitada, que é 150/200 = 0,75."
+        },
+        {
+            "letra": "C",
+            "texto": "0,63, o que mostra que nenhum aspecto relativo à saúde infantil pode ser negligenciado.",
+            "correta": false,
+            "justificativa": "O valor 0,63 aproximado decorreria da razão 450/710 (total de crianças pelo total geral de pacientes), desconsiderando a condição de que o paciente escolhido foi internado por queimadas."
+        },
+        {
+            "letra": "D",
+            "texto": "0,67, o que indica a necessidade de campanhas de conscientização que objetivem a eliminação das queimadas.",
+            "correta": false,
+            "justificativa": "O valor 0,67 (aproximadamente 2/3) não corresponde à fração 150/200 (que é 3/4 = 0,75)."
+        },
+        {
+            "letra": "E",
+            "texto": "0,75, o que sugere a necessidade de que, em áreas atingidas pelos efeitos das queimadas, o atendimento hospitalar no setor de pediatria seja reforçado.",
+            "correta": true,
+            "justificativa": "O espaço amostral restringe-se aos internados por problemas respiratórios causados por queimadas: 50 (idosos) + 150 (crianças) = 200 pacientes. Desses, 150 são crianças. Logo, P = 150/200 = 0,75. O resultado evidencia a predominância de crianças nesse grupo, indicando a necessidade de reforço na pediatria."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "1.0",
+        "datetime": "2026-10-20T09:10:41.065958",
+        "confianca": "alta",
+        "evidencias": [
+            "O comando restringe o espaço amostral aos pacientes internados por problemas respiratórios decorrentes de queimadas (50 + 150 = 200).",
+            "O número de casos favoráveis (crianças) é igual a 150.",
+            "A divisão 150 / 200 resulta exatamente em 0,75, confirmando a alternativa E e coincidindo com o gabarito oficial."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-12.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": null,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Alexandre Nassar de Peder",
+        "colegio": "CCM Darcy José Costa",
+        "turma": "3B"
+    }
+}

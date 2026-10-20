@@ -1,0 +1,117 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2007,
+            "dia": 1,
+            "numero": 1,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": 1,
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "textos_extraidos/questao-1.txt",
+            "gabarito": "C"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "CH",
+            "nome": "Ciências Humanas e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C1",
+            "descricao": "Compreender os elementos culturais que constituem as identidades"
+        },
+        "habilidade_principal": {
+            "id": "H5",
+            "descricao": "Identificar as manifestações ou representações da diversidade do patrimônio cultural e artístico em diferentes sociedades."
+        },
+        "habilidades_relacionadas": [
+            {
+                "id": "H1",
+                "descricao": "Interpretar historicamente e/ou geograficamente fontes documentais acerca de aspectos da cultura."
+            },
+            {
+                "id": "H3",
+                "descricao": "Associar as manifestações culturais do presente aos seus processos históricos."
+            }
+        ],
+        "eixo_cognitivo": {
+            "id": "II",
+            "nome": "Compreender fenômenos (CF)",
+            "descricao": "construir e aplicar conceitos das várias áreas do conhecimento para a compreensão de fenômenos naturais, de processos histórico-geográficos, da produção tecnológica e das manifestações artísticas."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Cultura Material e imaterial; patrimônio e diversidade cultural no Brasil",
+        "conteudos_relacionados": [
+            "Manifestações culturais e folclore",
+            "Patrimônio histórico e cultural",
+            "Identidade cultural brasileira"
+        ],
+        "assunto": "Patrimônio cultural imaterial",
+        "objeto_de_analise": "Diferenciação entre patrimônio material, imaterial e natural a partir de representações visuais",
+        "fenomeno_conceito": "Patrimônio cultural imaterial"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "Cristo Redentor",
+            "correta": false,
+            "justificativa": "O Cristo Redentor é um bem tangível e físico, caracterizando-se como patrimônio cultural material (monumento escultural e arquitetônico)."
+        },
+        {
+            "letra": "B",
+            "texto": "Pelourinho",
+            "correta": false,
+            "justificativa": "O Pelourinho é um conjunto arquitetônico e urbanístico histórico, enquadrado como patrimônio cultural material."
+        },
+        {
+            "letra": "C",
+            "texto": "Bumba-meu-boi",
+            "correta": true,
+            "justificativa": "O Bumba-meu-boi é uma manifestação folclórica e festiva transmitida oral e gestualmente pela tradição popular, correspondendo à definição de patrimônio cultural imaterial apresentada no texto."
+        },
+        {
+            "letra": "D",
+            "texto": "Cataratas do Iguaçu",
+            "correta": false,
+            "justificativa": "As Cataratas do Iguaçu são uma formação geofísica e ecológica, sendo classificadas como patrimônio natural, e não imaterial."
+        },
+        {
+            "letra": "E",
+            "texto": "Esfinge de Gizé",
+            "correta": false,
+            "justificativa": "A Esfinge de Gizé é uma estrutura monumental milenar esculpida em pedra, constituindo patrimônio cultural material da humanidade."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "deepseek-r1",
+        "datetime": "2026-10-20T09:09:42.386285",
+        "confianca": "alta",
+        "evidencias": [
+            "O texto-base conceitua patrimônio cultural imaterial como porção intangível da herança cultural contida nas tradições, no folclore, nos saberes, nas festas e manifestações orais ou gestuais.",
+            "A habilidade H5 trata expressamente de identificar as manifestações ou representações da diversidade do patrimônio cultural e artístico.",
+            "Dentre as opções, o Bumba-meu-boi é a única expressão performática e festiva (intangível), enquanto as demais são bens materiais ou naturais."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-1.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": null,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Alexandre Nassar de Peder",
+        "colegio": "CCM Darcy José Costa",
+        "turma": "3B"
+    }
+}
