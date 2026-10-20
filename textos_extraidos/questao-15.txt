@@ -1,0 +1,17 @@
+Questão 15
+
+Há diversas maneiras de o ser humano obter energia para seu próprio metabolismo utilizando energia armazenada na cana-de-açúcar. O esquema abaixo apresenta quatro alternativas dessa utilização.
+
+**[FIGURA: Fluxograma horizontal dividindo-se em quatro caminhos (numerados de 1 a 4) a partir de pés de cana-de-açúcar à esquerda, convergindo para um ser humano à direita. 
+Caminho 1: Da cana-de-açúcar, uma seta aponta para um copo de "caldo-de-cana", de onde outra seta se dirige ao ser humano.
+Caminho 2: Da cana-de-açúcar, uma seta aponta para um bloco retangular de "rapadura", de onde outra seta se dirige ao ser humano.
+Caminho 3: Da cana-de-açúcar, uma seta aponta para um pacote de "açúcar refinado", de onde outra seta se dirige ao ser humano.
+Caminho 4: Da cana-de-açúcar, uma seta aponta para uma bomba de combustível com um carro estilizado, representando o "etanol". Desse ponto, uma seta vai para um caminhão e uma fábrica representando "transporte/indústria", de onde outra seta vai para embalagens de "alimentos industrializados", que finalmente se conectam por uma seta ao ser humano.]**
+
+A partir dessas informações, conclui-se que
+
+A) a alternativa 1 é a que envolve maior diversidade de atividades econômicas.
+B) a alternativa 2 é a que provoca maior emissão de gás carbônico para a atmosfera.
+C) as alternativas 3 e 4 são as que requerem menor conhecimento tecnológico.
+D) todas as alternativas requerem trabalho humano para a obtenção de energia.
+E) todas as alternativas ilustram o consumo direto, pelo ser humano, da energia armazenada na cana.

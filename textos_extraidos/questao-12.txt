@@ -1,0 +1,13 @@
+Questão 12
+
+A queima de cana aumenta a concentração de dióxido de carbono e de material particulado na atmosfera, causa alteração do clima e contribui para o aumento de doenças respiratórias. A tabela abaixo apresenta números relativos a pacientes internados em um hospital no período da queima da cana.
+
+**[FIGURA: Tabela com dados de internações hospitalares divididas por pacientes ("idosos" e "crianças") e colunas para "problemas respiratórios causados pelas queimadas", "problemas respiratórios resultantes de outras causas", "outras doenças" e "total". Na linha de idosos, os valores são 50, 150, 60 e 260 (total), respectivamente. Na linha de crianças, os valores são 150, 210, 90 e 450 (total), respectivamente.]**
+
+Escolhendo-se aleatoriamente um paciente internado nesse hospital por problemas respiratórios causados pelas queimadas, a probabilidade de que ele seja uma criança é igual a
+
+A) 0,26, o que sugere a necessidade de implementação de medidas que reforcem a atenção ao idoso internado com problemas respiratórios.
+B) 0,50, o que comprova ser de grau médio a gravidade dos problemas respiratórios que atingem a população nas regiões das queimadas.
+C) 0,63, o que mostra que nenhum aspecto relativo à saúde infantil pode ser negligenciado.
+D) 0,67, o que indica a necessidade de campanhas de conscientização que objetivem a eliminação das queimadas.
+E) 0,75, o que sugere a necessidade de que, em áreas atingidas pelos efeitos das queimadas, o atendimento hospitalar no setor de pediatria seja reforçado.
